@@ -1,25 +1,24 @@
-DataBase Pre-Request:
-Docker
+DataBase Pre-Request: <br>
+Docker <br>
 
-Backend Pre-Request:
-Java 8
+Backend Pre-Request: <br>
+Java 8 <br>
 
-Frontend Pre-Request:
-Docker
+Frontend Pre-Request: <br>
+Docker <br>
+<br>
 
+Start up Database: <br>
+cd HKTV_interview/db <br>
+docker-compose up <br>
 
+Start up Backend: <br>
+cd HKTV_interview/backend <br>
+java -jar Warehouse-Inventory-System-0.0.1.jar <br>
 
-Start up Database:
-cd HKTV_interview/db
-docker-compose up
-
-Start up Backend:
-cd HKTV_interview/backend
-java -jar Warehouse-Inventory-System-0.0.1.jar
-
-Start up Frontend:
-cd HKTV_interview/frontend
-docker-compose up
+Start up Frontend: <br>
+cd HKTV_interview/frontend <br>
+docker-compose up <br>
 
 
 
