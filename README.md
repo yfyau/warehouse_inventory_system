@@ -9,15 +9,15 @@ Docker <br>
 <br>
 
 Start up Database: <br>
-cd HKTV_interview/db <br>
+cd db <br>
 docker-compose up <br>
 
 Start up Backend: <br>
-cd HKTV_interview/backend <br>
+cd backend <br>
 java -jar Warehouse-Inventory-System-0.0.1.jar <br>
 
 Start up Frontend: <br>
-cd HKTV_interview/frontend <br>
+cd frontend <br>
 docker-compose up <br>
 
 
