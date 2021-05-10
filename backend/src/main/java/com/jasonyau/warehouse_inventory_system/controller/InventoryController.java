@@ -39,7 +39,6 @@ public class InventoryController {
 
 
     @PutMapping("/")
-    @CrossOrigin(origins = "http://localhost:3000")
     public ResponseEntity<String> updateMultiple(@RequestBody List<Inventory> inventories) {
         for (Inventory inventory : inventories) {
             try {
@@ -69,7 +68,6 @@ public class InventoryController {
     }
 
     @PutMapping("/transfer/")
-    @CrossOrigin(origins = "http://localhost:3000")
     public ResponseEntity<String> transfer(@RequestBody Map<String, Object> params) {
         /*  frLocationId
             toLocationId
