@@ -6,7 +6,8 @@
 
 ### Frontend Pre-Request: <br>
 1. Docker <br>
-<br>
+
+---
 
 ### Start up Database: <br>
 1. cd db <br>
@@ -26,6 +27,7 @@ Ref - https://dev.mysql.com/doc/refman/8.0/en/identifier-case-sensitivity.html <
 2. docker-compose up <br>
 3. Open - http://127.0.0.1:3000/ <br>
 
+---
 
 ### Day 1
 1. Design data and system structure
